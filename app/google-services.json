@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "360101538162",
+    "firebase_url": "https://my-first-firebase-app-f8361.firebaseio.com",
+    "project_id": "my-first-firebase-app-f8361",
+    "storage_bucket": "my-first-firebase-app-f8361.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360101538162:android:e7b77101423e5019",
+        "android_client_info": {
+          "package_name": "com.thedhakadigital.dmpnorth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360101538162-1ne1o0ibgjp6h397scf5prh7e0tmmuae.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.thedhakadigital.dmpnorth",
+            "certificate_hash": "a02dfc4d0aae1ce1007e7365cf31d84eb490f7ad"
+          }
+        },
+        {
+          "client_id": "360101538162-b6u7mj7540o2gdd8rdd15rn8en8u1ea0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKPSvbCRlr8U7cgc1SAegqj01rShBWR0Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360101538162-b6u7mj7540o2gdd8rdd15rn8en8u1ea0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360101538162:android:cd253382b432615d",
+        "android_client_info": {
+          "package_name": "com.kamrulhasan3288.whatsappclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360101538162-7qn6skrperk193pl7sm6fu0ii5bbl29o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kamrulhasan3288.whatsappclone",
+            "certificate_hash": "a02dfc4d0aae1ce1007e7365cf31d84eb490f7ad"
+          }
+        },
+        {
+          "client_id": "360101538162-b6u7mj7540o2gdd8rdd15rn8en8u1ea0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKPSvbCRlr8U7cgc1SAegqj01rShBWR0Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "360101538162-b6u7mj7540o2gdd8rdd15rn8en8u1ea0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

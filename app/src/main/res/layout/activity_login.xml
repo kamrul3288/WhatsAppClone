@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp"
+    android:background="@drawable/app_bg"
+    tools:context="com.kamrulhasan3288.whatsappclone.activities.LoginActivity">
+
+
+    <ImageView
+        android:src="@drawable/whatsapp_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:layout_marginTop="45dp"
+        android:id="@+id/login_activity_email"
+        android:drawableStart="@mipmap/ic_profile"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Email"
+        android:imeOptions="actionNext"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <EditText
+        android:id="@+id/login_activity_password"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:imeOptions="actionUnspecified"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:drawableStart="@mipmap/ic_password"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <Button
+        android:id="@+id/login_activity_LoginButton"
+        android:text="Login"
+        android:onClick="attemptLogin"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/button_bg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <Button
+        android:id="@+id/login_activity_registerButton"
+        android:text="No Account? Register Here"
+        android:layout_marginTop="5dp"
+        android:onClick="registerNewUser"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="#29a71a"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+
+</LinearLayout>

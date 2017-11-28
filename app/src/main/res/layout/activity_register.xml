@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/app_bg"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context="com.kamrulhasan3288.whatsappclone.activities.RegisterActivity">
+
+    <ImageView
+        android:src="@drawable/whatsapp_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:layout_marginTop="45dp"
+        android:id="@+id/register_activity_userName"
+        android:drawableStart="@mipmap/ic_profile"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Name"
+        android:maxLines="1"
+        android:imeOptions="actionNext"
+        android:inputType="text"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/register_activity_email"
+        android:drawableStart="@mipmap/ic_profile"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
+        android:hint="Email"
+        android:imeOptions="actionNext"
+        android:padding="5dp"
+        android:maxLines="1"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <EditText
+        android:id="@+id/register_activity_password"
+        android:layout_marginTop="5dp"
+        android:hint="Password"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:imeOptions="actionNext"
+        android:drawableStart="@mipmap/ic_password"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <EditText
+        android:id="@+id/register_activity_rePassword"
+        android:layout_marginTop="5dp"
+        android:hint="Re-Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:imeOptions="actionUnspecified"
+        android:padding="5dp"
+        android:maxLines="1"
+        android:drawableStart="@mipmap/ic_password"
+        android:background="@drawable/edit_text_bg"
+        android:layout_width="match_parent"
+        android:layout_height="35dp" />
+
+    <Button
+        android:id="@+id/register_activity_registerButton"
+        android:text="Register"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:onClick="attemptToRegister"
+        android:background="@drawable/button_bg"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <Button
+        android:id="@+id/register_activity_LoginButton"
+        android:text="Already Account? Login Now"
+        android:onClick="loginNow"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="#29a71a"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kamrulhasan3288.whatsappclone.activities.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:theme="@style/toolBaTheme"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:minHeight="?android:attr/actionBarSize"
+        android:layout_height="wrap_content"/>
+
+
+    <ListView
+        android:layout_below="@+id/toolBar"
+        android:padding="10dp"
+        android:id="@+id/chat_list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/listFooter"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:transcriptMode="alwaysScroll" />
+
+    <LinearLayout
+        android:id="@+id/listFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="bottom">
+
+        <EditText
+            android:id="@+id/messageInput"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textColorHint="#AEAEAE"
+            android:textSize="14sp"
+            android:background="@android:color/transparent"
+            android:hint="Type your message"
+            android:paddingStart="15dp"
+            android:paddingLeft="15dp"
+            android:imeActionLabel="Send"
+            android:imeOptions="actionUnspecified"
+            android:inputType="textCapSentences|textAutoCorrect"
+            android:maxLines="1"
+            android:gravity="center_vertical"/>
+
+        <ImageButton
+            android:id="@+id/sendButton"
+            android:onClick="messageSend"
+            android:background="@mipmap/ic_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Send"/>
+    </LinearLayout>
+
+</RelativeLayout>
